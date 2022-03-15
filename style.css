@@ -154,7 +154,7 @@
             }
             
             .image {
-                background-image: url("../Formulaire/img/ordi.jpg");
+                background-image: url("img/ordi.jpg");
                 background-repeat: no-repeat;
                 background-size: cover;
                 width: 750px;
