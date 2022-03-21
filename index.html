@@ -1,170 +1,195 @@
 <!DOCTYPE html>
 <html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulaire Hetic 📑</title>
+    <link rel="stylesheet" href="css/style.css" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Formulaire_Hetic</title>
-    <link rel="shortcut icon" href="img/Hetic.png" type="image/x-icon">
+        <!--Meta Tags -->
+    <title>Formulaire HETIC</title>
+    <meta name="title" content="Formulaire HETIC">
+    <meta name="description" content="Exercice d'intégration du Formulaire du site Hetic ">
 
-</head>
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://metatags.io/">
+    <meta property="og:title" content="Formulaire HETIC">
+    <meta property="og:description" content="Exercice d'intégration du Formulaire du site Hetic ">
+    <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
 
-<body>
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://metatags.io/">
+    <meta property="twitter:title" content="Formulaire HETIC">
+    <meta property="twitter:description" content="Exercice d'intégration du Formulaire du site Hetic ">
+    <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+  </head>
+  <body>
+    <header>
+      <section>
+        <img id="logoHetic" src="ressources/Logo_HETIC.png" alt="Logo-Hetic" width="170px" />
+      </section>
+      
+       <!--=NAVIGUATION POUR LES PC===-->
+      <section>
+        <nav class="flex_nav">
+          <ul>
+            <li><a href="#">Formations</a></li>
+            <li><a href="#">Vie etudiante</a></li>
+            <li><a href="#">Admissions</a></li>
+            <li><a href="#">01.74.36.10.07</a></li>
+          </ul>
+        </nav>
+      </section>
+       <!--==============================-->
 
-    <header class="header">
-        <section><img style="width: 120px;" src="img/Hetic.png" alt="" class="logo"></section>
-        <section>
-
-            <input class="menu-btn" type="checkbox" id="menu-btn" />
-            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-            <ul class="menu">
-                <li> <a href="#">Formation</a></li>
-                <li> <a href="#">Vie Etudiante</a></li>
-                <li> <a href="#">Admissions</a></li>
-                <li> <a href="#">01.76.3610.07</a></li>
-            </ul>
-        </section>
+      <!--NAVIGUATION RESERVER AU MOBILE-->
+      <section class="sectionMobile">
+        <div id="burgerMenu"></div>
+        <nav class="flex_nav navMenu">
+          <ul>
+            <li><a href="#">Formations</a></li>
+            <li><a href="#">Vie etudiante</a></li>
+            <li><a href="#">Admissions</a></li>
+            <li><a href="#">01.74.36.10.07</a></li>
+          </ul>
+        </nav>
+      </section>
+      <!--==============================-->
 
     </header>
 
+    <main>
+
+      <!--=======SECTION PRINCIPALE 1========-->
+      <section class="banner_section">
+        <article class="contact_section">
+          <h2>CONTACTEZ-NOUS</h2>
+          <p>
+            L'équipe d'admission d'Hetic est disponible pour échager avec vous
+            sur votre projet d'orientation lors d'un rendez-vous &nbsp d'admission à
+            distance
+          </p>
+        </article>
+        <article>
+          <p>ECOLE DES METIER DU WEB</p>
+        </article>
+        
+        <article class="socialDiv">
+         
+          <ul>
+            <li><a href="#"><img class="socialImg" src="ressources/icon/facebook.png" alt="notre facebook" width="40px"></a></li>
+            <li><a href="#"><img class="socialImg" src="ressources/icon/twitter.png" alt="twitter" width="40px"></a></li>
+            <li><a href="#"><img class="socialImg" src="ressources/icon/instagram.png" alt="instagram" width="40px"></a></li>
+            <li><a href="#"><img class="socialImg" src="ressources/icon/youtube.png" alt="youtube" width="40px"></a></li>
+            <li><a href="#"><img class="socialImg" src="ressources/icon/indeen.png" alt="indeen" width="40px"></a></li>
+            <li><a href="#"><img class="socialImg" src="ressources/icon/vimeo.png" alt="vimeo" width="40px"></a></li>
+          </ul>
+        </article>
+      </section>
 
 
-    <section class="container">
-        <div class="panel">
-
-            <div class="image">
-                <p class="EMW" style="writing-mode: vertical-rl; text-orientation: upright; margin-left: 720px; margin-top:25px; color: white;">ECOLE DES METIERS DU WEB</p>
-                <div class="block">
-
-                    <div class="interface">
-                        <h1 class="titre1">CONTACTEZ-NOUS</h1>
-                        <p class="p1">L'équipe d'admission d'Hétiic est disponible pour échanger avec vous sur votre projet d'orientation lors d'un rendez-vous d'admission à distance</p>
-                        <div class="reseaux">
-                            <img class="logosreseaux" src="img/facebook.png" alt="facebook">
-                            <img class="logosreseaux" src="img/twitter.png" alt="twitter">
-                            <img class="logosreseaux" src="img/vimeo.png" alt="instagramme">
-                            <img class="logosreseaux" src="img/youtube.png" alt="Youtube">
-                            <img class="logosreseaux" src="img/instagram.png" alt="in">
-                            <img class="logosreseaux" src="img/indeen.png" alt="vimed">
-                        </div>
-                    </div>
-                </div>
+       <!--=======SECTION PRINCIPALE 2========-->
+      <section >
+        <article class="articleImg1">
+            <img src="ressources/HETIC-logo3.png" id="flotImg1" alt="" width="80px">
+        </article>
+        
+        <article class="articleImg2">
+          <img src="ressources/HETIC-logo3.png" id="flotImg2" alt="" width="80px">
+        </article>
+        
+      </div>
+        <h1 class="customH1 center">Demandez un rendez-vous</h1>
+        <form autocomplete="off" class="form" action="#" method="post" style="z-index: 1;">
+          <div class="flex-item">
+            <div class="inputDiv">
+              <input class="input-custom in1"  name="prenom" type="text">
+              <label class="input_label lab1" for="prenom">Prénom*</label>
             </div>
-            <div class="textimg">
+           <div class="inputDiv">
+            <input class="input-custom in2" name="Nom" type="text">
+            <label class="input_label lab2" for="prenom">Nom*</label>
+           </div>
+          </div>
 
+          <div class="flex-item">
+            <div class="inputDiv">
+              <input class="input-custom in3"type="tel" pattern="[0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2}">
+              <label class="input_label lab3" for="prenom">Numéro de télephone*</label>
+              </div>
+              <div class="inputDiv">
+              <input class="input-custom in4" type="text">  
+              <label class="input_label lab4" for="société">Société*</label>
+              </div>
+          </div>
+          
+          <div class="flex-item" style="flex-direction: column;">
+            <div class="inputDiv2">
+              <input class="input-custom in5 " name="email" type="email">
+              <label class="input_label lab5" for="email">Adresse e-mail*</label>
             </div>
-
-            <div class="logo-h">
-                <div class="h logoh1"></div>
-                <div class="h logoh2"></div>
+            <div class="inputDiv2">
+              <input class="input-custom in6" name="objet" type="text">
+              <label class="input_label lab6" for="objet"> Objet*</label>
             </div>
-            <div class="formulaire">
-                <form role="form">
-                    <h2 class="titre2">Demandez un rendez-vous</h2>
-                    <div class="row">
-                        <div class="col1">
-                            <div style="padding-top: 15px;">
-
-                                <input type="text" name="Prenom" id="Prenom" class="cadre1" placeholder="Prenom*" required='required' maxlength="20">
-                                <!-- <span id="Prenom_manquant"></span><br> -->
-                                <!-- <label class="prenom" for="Prenom">Prenom*</label> -->
-                            </div>
-
-                            <div style="margin-top: 15px;">
-                                <input type="text" name="Nom" id="Nom" class="cadre2" placeholder="Nom*" required maxlength="20">
-                                <!-- <label class="Nom" for="Nom">nom*</label> -->
-                            </div>
-
-                        </div>
-
-                        <div class="col2">
-                            <div style="padding-top: 15px;">
-                                <input type="text" name="Societé" id="Societé" class="cadre3" placeholder="Societé*" required maxlength="20">
-                                <!-- <label class="Societe" for="Societe">Societé*</label> -->
-                            </div>
-
-                            <div style="margin-top: 15px;">
-                                <input type="text" name="Numéro de téléphone" id="Numéro de téléphone" class="cadre4" placeholder="Numéro de téléphone*" required maxlength="15">
-                                <!-- <label class="tel" for="Numéro de téléphone">Numéro de téléphone*</label> -->
-                            </div>
-
-                        </div>
-
-                        <div>
-                            <div style="margin-top: 15px;">
-                                <input type="text" name="email" id="email" class="cadre5" placeholder="Email*" required maxlength="20">
-                                <!-- <label class="email" for="email">email*</label> -->
-                            </div>
-                        </div>
-                        <div>
-                            <div style="margin-top: 15px;">
-                                <input type="text" name="objet" id="objet" class="cadre6" placeholder="Objet*" required maxlength="20">
-                                <!-- <label class="objet" for="objet">objet*</label> -->
-                            </div>
-                        </div>
-
-                        <div>
-                            <div style="margin-top: 15px;">
-                                <textarea type="text" name="Message" id="Message" cols="30" rows="10" class="cadre7" placeholder="Message*"></textarea>
-                                <!-- <label class="Message" for="Message">Message*</label> -->
-                            </div>
-                        </div>
-
-                        <p class="cadre8">
-                            <input type="checkbox"> Dans le cadre de la réglementation sur laprotection des données, <br> j'accepte d'etre contacté(e) par email et téléphone.
-
-                            </input>
-
-                        </p>
-                    </div>
-                    <input id="bouton_envoi" class="cadre9" type="submit" value="JE PREND RENDEZ-VOUS">
-                    <div>
-                        <hr class="hr" style="color: rgb(255, 255, 255); width: 97.5%; margin-right: 60px;">
-                    </div>
+            <div class="inputDiv2">
+             <textarea name="message" class="input-custom in7" type="text" id="form-message" cols="30" rows="10"></textarea>
+             <label class="input_label lab7" for="message"> Message*</label>
             </div>
-
-            </form>
-        </div>
-        </div>
-    </section>
-
-    <Footer class="footer">
-
-
-        <div class="infirstfooter">
-            <div class="sousinfirstfooter">
-                <img class="imgfooter " style="width: 120px; " src="img/Hetic2.png " alt="logo ">
-                <p style="font-size: 12px; color: rgb(136, 136, 136); margin-top: 10px; ">© 2020. All rights reserved. </p>
+            <div class="flex">
+             <input type="checkbox" class="custom_checkbox" name="checkbox">
+            <label for="checkbox">Lorem ipsrit? Magnam, nesciunt modi. Dicta, corrupeniti mollitia veniam inventore totam architecto?</label>
             </div>
-            <div class="sousinsecondfooter">
-                <p style="margin-top: 10px; color: rgb(197, 197, 197); ">Grande Ecole</p>
-                <p style="margin-top: 10px; color: rgb(197, 197, 197); ">Bachelor Developpeur Web</p>
             </div>
-        </div>
+          <!--BUTTON D'ENVOIE DU FORMULAIRE-->
+          <div class="center">
+            <input class="form_btn" type="submit" value="JE PREND RENDEZ-VOUS"/>
+             <hr class="customHr"/>
+          </div>
+        </form>
+      </section>
+    </main>
 
-        <div class="infooter " style="display: flex; flex-direction: column; color: white; ">
-            <h1 style="font-size: 22px; font-weight: bold; ">Liens utiles</h1>
+    <footer>
+      <hr />
+      <div class="flex_div">
+        <section>
+          <img class="footerImg" src="ressources/logo-hetic-white.png" alt="Logo hetic footer" width="90px"/>
+          <p>@ 2020, Tout droits réservés</p>
+          <nav>
+            <ul>
+              <li><a href="#">Grande Ecole</a></li>
+              <li><a href="#">Bachelor Développeur Web</a></li>
+            </ul>
+          </nav>
+        </section>
+        <section>
+          <h2 class="customH2">Liens utiles</h2>
+          <nav>
+            <ul>
+              <li><a href="#">Insertions</a></li>
+              <li><a href="#">L'ecole</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </section>
+        <section>
+          <h2 class="customH2">Formations</h2>
+          <nav>
+            <ul>
+              <li><a href="#">Bachelor Webmarketing & UX</a></li>
+              <li><a href="#">Prépa Mastère Digital</a></li>
+              <li><a href="#">Mastère Big Data & IA</a></li>
+            </ul>
+          </nav>
+        </section>
+      </div>
+    </footer>
 
-            <a style="margin-top: 10px; text-decoration: none; color: rgb(197, 197, 197); " href="# ">Insection</a>
-            <a style="margin-top: 10px; text-decoration: none; color: rgb(197, 197, 197); " href="# ">L'cole</a>
-            <a style="margin-top: 10px; text-decoration: none; color: rgb(197, 197, 197); " href="# ">Contact</a>
-
-        </div>
-
-        <div s class="infooter " tyle="display: flex; flex-direction: column; color: white; ">
-            <h1 style="font-weight: bold; ">FORMATIONS</h1>
-            <p style="margin-top: 10px; color: rgb(197, 197, 197); ">Bachelor Webmarketing & UX</p>
-            <p style="margin-top: 10px; color: rgb(197, 197, 197); ">Prépa Mastère Digital</p>
-            <p style="margin-top: 10px; color: rgb(197, 197, 197); ">Mastère Big Data & IA</p>
-        </div>
-
-    </Footer>
-    <hr class="traitfooter ">
-
-
-</body>
-
+    <script src="/js/scroll.js">  
+    </script>
+  </body>
 </html>
